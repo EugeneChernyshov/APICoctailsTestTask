@@ -1,0 +1,6 @@
+framework module Pods_APICoctailsTestTask {
+  umbrella header "Pods-APICoctailsTestTask-umbrella.h"
+
+  export *
+  module * { export * }
+}

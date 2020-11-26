@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182F3272256ED4CA0014D147 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182F3271256ED4CA0014D147 /* Filter.swift */; };
 		18C4DDC7256D19E70091F05E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4DDC6256D19E70091F05E /* AppDelegate.swift */; };
 		18C4DDC9256D19E70091F05E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4DDC8256D19E70091F05E /* SceneDelegate.swift */; };
-		18C4DDCB256D19E80091F05E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4DDCA256D19E80091F05E /* ViewController.swift */; };
 		18C4DDCE256D19E80091F05E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C4DDCC256D19E80091F05E /* Main.storyboard */; };
 		18C4DDD0256D19E90091F05E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C4DDCF256D19E90091F05E /* Assets.xcassets */; };
 		18C4DDD3256D19E90091F05E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C4DDD1256D19E90091F05E /* LaunchScreen.storyboard */; };
+		18C4DDE0256D1CC60091F05E /* FiltersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4DDDF256D1CC60091F05E /* FiltersViewController.swift */; };
+		18C4DDE4256D1CD70091F05E /* DrinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4DDE3256D1CD70091F05E /* DrinksViewController.swift */; };
+		18C4DDE8256D27E70091F05E /* DrinksCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4DDE7256D27E70091F05E /* DrinksCell.swift */; };
+		18C4DDEB256D27F70091F05E /* FiltersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4DDEA256D27F70091F05E /* FiltersCell.swift */; };
+		18C4DDF7256D499A0091F05E /* Cocktail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4DDF5256D49990091F05E /* Cocktail.swift */; };
+		18C4DDF8256D499A0091F05E /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4DDF6256D499A0091F05E /* Networking.swift */; };
+		4E2974BCC83FD5E4F53DE746 /* Pods_APICoctailsTestTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC76C5C99EBD46F1D3D4E189 /* Pods_APICoctailsTestTask.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		182F3271256ED4CA0014D147 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		18C4DDC3256D19E70091F05E /* APICoctailsTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APICoctailsTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C4DDC6256D19E70091F05E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18C4DDC8256D19E70091F05E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		18C4DDCA256D19E80091F05E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18C4DDCD256D19E80091F05E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18C4DDCF256D19E90091F05E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18C4DDD2256D19E90091F05E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18C4DDD4256D19E90091F05E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C4DDDF256D1CC60091F05E /* FiltersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersViewController.swift; sourceTree = "<group>"; };
+		18C4DDE3256D1CD70091F05E /* DrinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksViewController.swift; sourceTree = "<group>"; };
+		18C4DDE7256D27E70091F05E /* DrinksCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksCell.swift; sourceTree = "<group>"; };
+		18C4DDEA256D27F70091F05E /* FiltersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersCell.swift; sourceTree = "<group>"; };
+		18C4DDF5256D49990091F05E /* Cocktail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cocktail.swift; sourceTree = "<group>"; };
+		18C4DDF6256D499A0091F05E /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		604C9575265B1C5FEBD550F9 /* Pods-APICoctailsTestTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APICoctailsTestTask.debug.xcconfig"; path = "Target Support Files/Pods-APICoctailsTestTask/Pods-APICoctailsTestTask.debug.xcconfig"; sourceTree = "<group>"; };
+		CC76C5C99EBD46F1D3D4E189 /* Pods_APICoctailsTestTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APICoctailsTestTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1AF575E07D651B044C7A93 /* Pods-APICoctailsTestTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APICoctailsTestTask.release.xcconfig"; path = "Target Support Files/Pods-APICoctailsTestTask/Pods-APICoctailsTestTask.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E2974BCC83FD5E4F53DE746 /* Pods_APICoctailsTestTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1812FEE9256D4AEB00CB3EEA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				18C4DDE3256D1CD70091F05E /* DrinksViewController.swift */,
+				18C4DDDF256D1CC60091F05E /* FiltersViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1812FEEB256D4B0000CB3EEA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				18C4DDEA256D27F70091F05E /* FiltersCell.swift */,
+				18C4DDE7256D27E70091F05E /* DrinksCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1812FEEE256D4B2800CB3EEA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				18C4DDF5256D49990091F05E /* Cocktail.swift */,
+				182F3271256ED4CA0014D147 /* Filter.swift */,
+				18C4DDF6256D499A0091F05E /* Networking.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		18C4DDBA256D19E70091F05E = {
 			isa = PBXGroup;
 			children = (
 				18C4DDC5256D19E70091F05E /* APICoctailsTestTask */,
 				18C4DDC4256D19E70091F05E /* Products */,
+				C33BB018E91D33741EE15AD4 /* Pods */,
+				935E63E828336AB20BD13717 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +103,34 @@
 		18C4DDC5256D19E70091F05E /* APICoctailsTestTask */ = {
 			isa = PBXGroup;
 			children = (
+				1812FEE9256D4AEB00CB3EEA /* ViewControllers */,
+				1812FEEE256D4B2800CB3EEA /* Networking */,
+				1812FEEB256D4B0000CB3EEA /* Cells */,
 				18C4DDC6256D19E70091F05E /* AppDelegate.swift */,
 				18C4DDC8256D19E70091F05E /* SceneDelegate.swift */,
-				18C4DDCA256D19E80091F05E /* ViewController.swift */,
 				18C4DDCC256D19E80091F05E /* Main.storyboard */,
 				18C4DDCF256D19E90091F05E /* Assets.xcassets */,
 				18C4DDD1256D19E90091F05E /* LaunchScreen.storyboard */,
 				18C4DDD4256D19E90091F05E /* Info.plist */,
 			);
 			path = APICoctailsTestTask;
+			sourceTree = "<group>";
+		};
+		935E63E828336AB20BD13717 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC76C5C99EBD46F1D3D4E189 /* Pods_APICoctailsTestTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C33BB018E91D33741EE15AD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				604C9575265B1C5FEBD550F9 /* Pods-APICoctailsTestTask.debug.xcconfig */,
+				CE1AF575E07D651B044C7A93 /* Pods-APICoctailsTestTask.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18C4DDD7256D19E90091F05E /* Build configuration list for PBXNativeTarget "APICoctailsTestTask" */;
 			buildPhases = (
+				0C8D31285D2414656761ACEA /* [CP] Check Pods Manifest.lock */,
 				18C4DDBF256D19E70091F05E /* Sources */,
 				18C4DDC0256D19E70091F05E /* Frameworks */,
 				18C4DDC1256D19E70091F05E /* Resources */,
+				5735F13BF91E192AA59B5B00 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +200,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C8D31285D2414656761ACEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APICoctailsTestTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5735F13BF91E192AA59B5B00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APICoctailsTestTask/Pods-APICoctailsTestTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APICoctailsTestTask/Pods-APICoctailsTestTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-APICoctailsTestTask/Pods-APICoctailsTestTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18C4DDBF256D19E70091F05E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C4DDCB256D19E80091F05E /* ViewController.swift in Sources */,
 				18C4DDC7256D19E70091F05E /* AppDelegate.swift in Sources */,
+				18C4DDE0256D1CC60091F05E /* FiltersViewController.swift in Sources */,
+				18C4DDF7256D499A0091F05E /* Cocktail.swift in Sources */,
+				18C4DDE8256D27E70091F05E /* DrinksCell.swift in Sources */,
+				18C4DDEB256D27F70091F05E /* FiltersCell.swift in Sources */,
+				18C4DDF8256D499A0091F05E /* Networking.swift in Sources */,
 				18C4DDC9256D19E70091F05E /* SceneDelegate.swift in Sources */,
+				182F3272256ED4CA0014D147 /* Filter.swift in Sources */,
+				18C4DDE4256D1CD70091F05E /* DrinksViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +399,7 @@
 		};
 		18C4DDD8256D19E90091F05E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 604C9575265B1C5FEBD550F9 /* Pods-APICoctailsTestTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +419,7 @@
 		};
 		18C4DDD9256D19E90091F05E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE1AF575E07D651B044C7A93 /* Pods-APICoctailsTestTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
